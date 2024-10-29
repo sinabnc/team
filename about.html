@@ -19,7 +19,58 @@
 <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
+<style>
+	.mission-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin-top: 20px;
+}
 
+.mission-item {
+	flex: 1 1 30%;
+	min-width: 200px;
+}
+
+.mission-item h3 {
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.mission-item p,
+.mission-item ul {
+	margin: 0;
+}
+
+.list-style-home3 {
+	list-style-type: disc;
+	margin-left: 20px;
+	line-height: 1.6;
+}
+
+.sec-title h2 {
+	font-size: 24px;
+	line-height: 1.4;
+}
+.list-style-home3 {
+	display: flex;
+	flex-wrap: wrap; /* Allows items to wrap to the next line if space runs out */
+	gap: 15px; /* Optional: Adjusts spacing between items */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.list-style-home3 li {
+	white-space: nowrap;
+}
+
+.btn-box .theme-btn {
+	margin-right: 20px;
+}
+
+
+</style>
 <body>
 <div class="page-wrapper">
   <!-- Preloader -->
@@ -186,58 +237,64 @@
 	<!-- end main-content -->
 
   <!-- About Section -->
-	<section class="about-section-three">
-		<div class="auto-container">
-			<div class="row">
-				<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
-					<div class="inner-column">
-						<div class="sec-title">
-							<span class="sub-title">About Our Company</span>
-							<h2 class="text-split">Our main goal to best business solutions</h2>
-							<div class="text">Web designing in a powerful way of just not an only professions, however, in a passion for our Company. We have to a tendency to believe the idea that smart looking of any website is the first impression on visitors</div>
+  <section class="about-section-three">
+	<div class="auto-container">
+		<div class="row">
+			<!-- Content Column -->
+			<div class="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
+				<div class="inner-column">
+					<div class="sec-title">
+						<span class="sub-title">About Our Company</span>
+						<h2 class="text-split">At Team AE, we empower businesses to thrive in a competitive landscape</h2>
+					</div>
+					
+					<div class="mission-container d-flex flex-wrap">
+						<div class="mission-item col-md-4">
+							<h3>Our Mission</h3>
+							<ul class="list-style-home3">
+							<li>To provide innovative.</li>
+							<li>solutions that drive business success.</li>							
+							</ul>
 						</div>
-
-						<ul class="list-style-home3">
-							<li>The business applications</li>
-							<li>Revolutionary catalysts chang</li>
-							<li>Humour for chang seamlessly</li>
-							<li>Velit esse cillum dolore eu</li>
-							<li>Duis aute dolor in volupte</li>
-							<li>Refresing to get a personal</li>
-						</ul>
-
-						<div class="btn-box d-sm-flex align-items-center">
-							<a href="page-about.html" class="theme-btn btn-style-one mb-3 mb-sm-0"><span class="btn-title">Discover more</span></a>
-							<div class="founder-info d-flex align-items-center ml-50 ml-sm--0">
-								<div class="thumb mr-20"><img class="rounded-circle" src="images/resource/thumb-1.jpg" alt=""></div>
-								<div>
-									<h6 class="name mb-0">Jon Martin</h6>
-									<span class="designation">Co Founder</span>
-								</div>
-							</div>
+						<div class="mission-item col-md-4">
+							<h3>Our Vision</h3>
+							<ul class="list-style-home3">
+							<li>To be a leading consultancy recognized</li>
+							<li>integrity, and impactful results.</li>
+							</ul>
+						</div>
+						<div class="mission-item col-md-4">
+							<h3>Our Values</h3>
+							<ul class="list-style-home3">
+								<li><strong>Integrity:</strong> We uphold the highest standards of honesty and transparency.</li>
+								<li><strong>Collaboration:</strong> Partnering with you to achieve common goals.</li>
+								<li><strong>Excellence:</strong> Striving for the highest quality in every project.</li>
+							</ul>
 						</div>
 					</div>
+					
+					
 				</div>
+			</div>
 
-				<!-- Image Column -->
-				<div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<figure class="image-1 overlay-anim wow fadeInUp"><img src="images/resource/about3-1.jpg" alt="">
-						</figure>
-						<figure class="image-2 overlay-anim wow fadeInRight"><img src="images/resource/about3-2.jpg" alt="">
-						</figure>
-					</div>
+			<!-- Image Column -->
+			<div class="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+				<div class="inner-column">
+					<figure class="image-1 overlay-anim wow fadeInUp"><img src="images/resource/about3-1.jpg" alt=""></figure>
+					<figure class="image-2 overlay-anim wow fadeInRight"><img src="images/resource/about3-2.jpg" alt=""></figure>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
+</section>
+
   <!-- End About-Section -->
 
 	<!-- Service section Four -->
 	<section class="services-section">
 		<div class="auto-container">
 			<div class="sec-title text-center">
-				<span class="sub-title">SERVICE WE PROVIDE</span>
+				<span class="sub-title">Business Strategy</span>
 				<h2 class="text-split">Business strategies for your<br /> future success</h2>
 			</div>
 			<div class="row">
@@ -249,8 +306,9 @@
 							<div class="icon-box"><i class="icon flaticon-oldkare-chat"></i></div>
 						</div>
 						<div class="content-box">
-							<h5 class="title"><a href="page-service-details.html">Finance Consulting</a></h5>
-							<div class="text">consetetur sadipscing elitr the sed arer diam nonumy eirmod tempor</div>
+							<h5 class="title"><a href="page-service-details.html">Business Strategy</a></h5>
+							<div class="text">Crafting customized strategies that align with your vision for growth.
+							</div>
 							<a href="page-service-details.html" class="read-more">read More <i class="fa fa-long-arrow-alt-right"></i></a>
 						</div>
 					</div>
@@ -263,8 +321,10 @@
 							<div class="icon-box"><i class="icon flaticon-oldkare-healthcare"></i></div>
 						</div>
 						<div class="content-box">
-							<h5 class="title"><a href="page-service-details.html">Boost Productivity</a></h5>
-							<div class="text">consetetur sadipscing elitr the sed arer diam nonumy eirmod tempor</div>
+							<h5 class="title"><a href="page-service-details.html">Financial Advisory
+							</a></h5>
+							<div class="text">Offering expert financial insights to enhance profitability and manage risks.
+							</div>
 							<a href="page-service-details.html" class="read-more">read More <i class="fa fa-long-arrow-alt-right"></i></a>
 						</div>
 					</div>
@@ -277,8 +337,10 @@
 							<div class="icon-box"><i class="icon flaticon-oldkare-gardening"></i></div>
 						</div>
 						<div class="content-box">
-							<h5 class="title"><a href="page-service-details.html">Business Planning</a></h5>
-							<div class="text">consetetur sadipscing elitr the sed arer diam nonumy eirmod tempor</div>
+							<h5 class="title"><a href="page-service-details.html">Market Research
+							</a></h5>
+							<div class="text">Providing in-depth analysis to inform your business decisions and strategies.
+							</div>
 							<a href="page-service-details.html" class="read-more">read More <i class="fa fa-long-arrow-alt-right"></i></a>
 						</div>
 					</div>
