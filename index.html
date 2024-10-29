@@ -9,9 +9,9 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
-
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<!-- <link rel="shortcut icon" href="" type="image/x-icon">
+<link rel="icon" href="" type="image/x-icon"> -->
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -81,7 +81,7 @@
 			<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
 			<nav class="menu-box">
 				<div class="upper-box">
-					<div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+					<div class="nav-logo"><a href="index.html"><img src="images/TEAM AE-01 1.png" alt="" title=""></a></div>
 					<div class="close-btn"><i class="icon fa fa-times"></i></div>
 				</div>
 
@@ -181,8 +181,10 @@
 				<div class="bg-image" style="background-image: url(images/main-slider/1.jpg);"></div>
 				<div class="container-fluid ml-100 ml-lg--0">
 					<div class="content-box">
-						<h1 class="title animate-1">Providing Business <br class="d-none d-lg-block" />strategies for Your <br class="d-none d-lg-block" /> future success</h1>
-						<div class="text animate-2">Consetetur sadipscing elitr, sed arer diam nonumy eirmod tempor invidunt labore dolore magna erat</div>
+						<h1 class="title animate-1">Welcome to Team AE
+							
+							 <br class="d-none d-lg-block" />Your Trusted Partner  <br class="d-none d-lg-block" /> in Business Excellence</h1>
+						<div class="text animate-2">At Team AE, we empower businesses to thrive in a competitive landscape. Our tailored consultancy services are designed to address your unique challenges and unlock new opportunities for growth</div>
 						<div class="btn-box animate-3">
 							<a href="page-contact.html" class="theme-btn btn-style-one hover-light"><span class="btn-title">Get In Touch</span></a>
 						</div>
@@ -202,31 +204,44 @@
 					<div class="inner-column">
 						<div class="sec-title">
 							<span class="sub-title">About Us</span>
-							<h2 class="text-split">The essential steps for <br /> business success</h2>
-							<div class="text">There are many variations of passages of available but the majority have <br /> suffered alteration in some form, by injected hum randomised words which <br /> don't slightly but the majority have suffered</div>
+							<h2 class="text-split">At Team AE,<br />we empower businesses</h2>
 						</div>
-
-						<div class="content-box">
-							<ul class="list-style-three">
-								<li>Refresing to get such a personal touch</li>
-								<li>Duis aute irure dolor in reprehenderit in voluptate</li>
-								<li>Velit esse cillum dolore eu fugiat nulla pariatur</li>
-							</ul>
-
-							<div class="btn-box d-sm-flex align-items-center justify-content-between">
-								<div class="founder-info mb-3 mb-sm-0 d-sm-flex align-items-center">
-									<div class="thumb mb-2 mb-sm-0 mr-20"><img class="rounded-circle" src="images/resource/thumb-1.jpg" alt=""></div>
-									<div>
-										<h6 class="name mb-0">Jessica brown</h6>
-										<span class="designation">Founder of company</span>
-									</div>
-								</div>
-								<a href="page-about.html" class="theme-btn btn-style-one"><span class="btn-title">About Us</span></a>
+	
+						<!-- Mission, Vision, Values Section -->
+						<div class="mission-vision-values">
+							<!-- Our Mission -->
+							<div class="section-box">
+								<h3>Our Mission</h3>
+								<ul class="list-style-three">
+									<li>To provide innovative.</li>
+									<li> actionable solutions that drive business success.</li>
+								</ul>
+							</div>
+	
+							<!-- Our Vision -->
+							<div class="section-box">
+								<h3>Our Vision</h3>
+								<ul class="list-style-three">
+									<li>To be a leading consultancy recognized for our commitment to excellence.</li>
+									<li>integrity, and impactful results.</li>
+								</ul>
+							</div>
+	
+							<!-- Our Values -->
+							<div class="section-box">
+								<h3>Our Values</h3>
+								<ul class="list-style-three">
+									<li>Integrity: We uphold the highest standards of honesty and transparency.</li>
+									<li>Collaboration: Partnering with you to achieve common goals.</li>
+									<li>Excellence: Striving for the highest quality in every project.</li>
+								</ul>
 							</div>
 						</div>
+	
+						
 					</div>
 				</div>
-
+	
 				<!-- Image Column -->
 				<div class="image-column col-lg-5">
 					<div class="inner-column wow fadeInLeft">
@@ -238,6 +253,7 @@
 			</div>
 		</div>
 	</section>
+	
 	<!--Emd About Section Two -->
 
 	<!-- Features Section -->
@@ -245,51 +261,85 @@
 		<div class="auto-container">
 			<div class="sec-title text-center">
 				<span class="sub-title">Our Services</span>
-				<h2 class="text-split">Business strategies for your <br />future success</h2>
+				<h2 class="text-split">Comprehensive Consultancy<br />Services</h2>
 			</div>
-			<div class="row">
-				<!-- Feature Block -->
-				<div class="feature-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-					<div class="inner-box ">
-						<div class="image-box">
-							<figure class="image"><a href="page-service-details.html"><img src="images/resource/feature-1.jpg" alt=""></a></figure>
-							<i class="icon flaticon-instructor"></i>
+			<div class="swiper-container feature-slider">
+				<div class="swiper-wrapper">
+					<!-- Feature Block -->
+					<div class="swiper-slide feature-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<figure class="image"><a href="page-service-details.html"><img src="images/resource/feature-1.jpg" alt=""></a></figure>
+								<i class="icon flaticon-instructor"></i>
+							</div>
+							<div class="content-box">
+								<h5 class="title"><a href="page-service-details.html">Business Strategy</a></h5>
+								<a href="page-service-details.html" class="read-more"><i class="lnr-icon-arrow-right"></i></a>
+							</div>
 						</div>
-						<div class="content-box">
-							<h5 class="title"><a href="page-service-details.html">Business Analysis</a></h5>
-							<a href="page-service-details.html" class="read-more"><i class="lnr-icon-arrow-right"></i></a>
+					</div>
+			
+					<!-- Feature Block -->
+					<div class="swiper-slide feature-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<figure class="image"><a href="page-service-details.html"><img src="images/resource/feature-2.jpg" alt=""></a></figure>
+								<i class="icon"><img src="images/financial-advisor.png" alt="" srcset=""></i>
+							</div>
+							<div class="content-box">
+								<h5 class="title"><a href="page-service-details.html">Financial Advisory</a></h5>
+								<a href="page-service-details.html" class="read-more"><i class="lnr-icon-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+			
+					<!-- Feature Block -->
+					<div class="swiper-slide feature-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<figure class="image"><a href="page-service-details.html"><img src="images/resource/feature-3.jpg" alt=""></a></figure>
+								<i class="icon flaticon-satisfaction"></i>
+							</div>
+							<div class="content-box">
+								<h5 class="title"><a href="page-service-details.html">Market Research</a></h5>
+								<a href="page-service-details.html" class="read-more"><i class="lnr-icon-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide feature-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<figure class="image"><a href="page-service-details.html"><img src="images/resource/feature-2.jpg" alt=""></a></figure>
+								<i class="icon flaticon-search-engine"></i>
+							</div>
+							<div class="content-box">
+								<h5 class="title"><a href="page-service-details.html">Operational </a></h5>
+								<a href="page-service-details.html" class="read-more"><i class="lnr-icon-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide feature-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<figure class="image"><a href="page-service-details.html"><img src="images/resource/feature-2.jpg" alt=""></a></figure>
+								<i class="icon"><img src="images/consultation.png" alt="" srcset=""></i>
+							</div>
+							<div class="content-box">
+								<h5 class="title"><a href="page-service-details.html">Human Resources</a></h5>
+								<a href="page-service-details.html" class="read-more"><i class="lnr-icon-arrow-right"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
-
-				<!-- Feature Block -->
-				<div class="feature-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
-					<div class="inner-box ">
-						<div class="image-box">
-							<figure class="image"><a href="page-service-details.html"><img src="images/resource/feature-2.jpg" alt=""></a></figure>
-							<i class="icon flaticon-search-engine"></i>
-						</div>
-						<div class="content-box">
-							<h5 class="title"><a href="page-service-details.html">SEO Optimized</a></h5>
-							<a href="page-service-details.html" class="read-more"><i class="lnr-icon-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<!-- Feature Block -->
-				<div class="feature-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
-					<div class="inner-box ">
-						<div class="image-box">
-							<figure class="image"><a href="page-service-details.html"><img src="images/resource/feature-3.jpg" alt=""></a></figure>
-							<i class="icon flaticon-satisfaction"></i>
-						</div>
-						<div class="content-box">
-							<h5 class="title"><a href="page-service-details.html">Risk Management</a></h5>
-							<a href="page-service-details.html" class="read-more"><i class="lnr-icon-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
+				
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+			
+				<!-- Add Navigation Arrows -->
+				<div class="swiper-button-next" style="color: red;"></div>
+				<div class="swiper-button-prev" style="color: red;"></div>
 			</div>
+			
 		</div>
 	</section>
 	<!-- End Features Section -->
@@ -677,7 +727,7 @@
 
 <!-- Scroll To Top -->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
-
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.js"></script> 
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -721,6 +771,40 @@
 		});
 	})(jQuery);
 </script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		var swiper = new Swiper('.feature-slider', {
+			slidesPerView: 1, // Adjust as needed, e.g., 1 for mobile, 3 for desktop
+			spaceBetween: 30,
+			loop: true,
+			autoplay: {
+				delay: 1500, // 1.5 seconds
+				disableOnInteraction: false, // Continue autoplay after user interactions
+			},
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			breakpoints: {
+				576: {
+					slidesPerView: 1,
+				},
+				768: {
+					slidesPerView: 2,
+				},
+				992: {
+					slidesPerView: 3,
+				}
+			}
+		});
+	});
+</script>
+
+
 </body>
 
 
