@@ -18,7 +18,44 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+<style>
+	/* Responsive Styling */
+@media (max-width: 768px) {
+    .features-section .sec-title h2 {
+        font-size: 1.75rem;
+    }
 
+    .feature-block {
+        max-width: 90%;
+    }
+
+    .feature-block .image-box {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .features-section .sec-title h2 {
+        font-size: 1.5rem;
+    }
+
+    .feature-slider {
+        padding: 10px 0;
+    }
+
+    .feature-block {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none; /* Hides navigation arrows on smaller screens */
+    }
+}
+
+
+</style>
 </head>
 
 <body>
@@ -238,7 +275,7 @@
 							<div class="section-box">
 								<h3>Our Values</h3>
 								<ul class="list-style-three">
-									<li>We uphold the highest ethical standards in all our interactions, ensuring transparency and honesty.</li>
+									<li>We uphold the highest ethical standards in all our interactions, <br>ensuring transparency and honesty.</li>
 									<li>Client Centricity: We prioritize our clients' needs, delivering personalized solutions that foster long-term partnerships.</li>
 								</ul>
 							</div>
@@ -270,12 +307,12 @@
 			</div>
 			<div class="swiper-container feature-slider">
 				<div class="swiper-wrapper">
-					<!-- Feature Blocks -->
+					<!-- Feature Block -->
 					<div class="swiper-slide feature-block">
 						<div class="inner-box">
 							<div class="image-box">
 								<figure class="image">
-									<a href="page-service-details.html"><img src="images/handshake-close-up-executives.jpg" alt=""></a>
+									<a href="page-service-details.html"><img src="images/handshake-close-up-executives.jpg" alt="Incorporation"></a>
 								</figure>
 								<i class="icon flaticon-instructor"></i>
 							</div>
@@ -286,11 +323,12 @@
 						</div>
 					</div>
 	
+					<!-- Feature Block -->
 					<div class="swiper-slide feature-block">
 						<div class="inner-box">
 							<div class="image-box">
 								<figure class="image">
-									<a href="page-service-details.html"><img src="images/new-deals-is-coming-modern-stylish-bearded-businessman-automobile-saloon.jpg" alt=""></a>
+									<a href="page-service-details.html"><img src="images/new-deals-is-coming-modern-stylish-bearded-businessman-automobile-saloon.jpg" alt="Audits"></a>
 								</figure>
 								<i class="icon"><img src="images/financial-advisor.png" alt=""></i>
 							</div>
@@ -301,13 +339,13 @@
 						</div>
 					</div>
 	
-					<!-- More Feature Blocks here -->
+					<!-- Add additional feature blocks here -->
 	
 				</div>
-				<!-- Add Pagination -->
+				<!-- Pagination -->
 				<div class="swiper-pagination"></div>
 	
-				<!-- Add Navigation Arrows -->
+				<!-- Navigation Arrows -->
 				<div class="swiper-button-next"></div>
 				<div class="swiper-button-prev"></div>
 			</div>
