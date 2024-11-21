@@ -3653,8 +3653,8 @@ Section Title
 .banner-section .content-box .banner-text {
   color: var(--theme-color-white);
   bottom: 10%;
-  font-size: 17px;
-  height: 91px;
+  font-size: 5px;
+  height: 90px;
   line-height: 30px;
   margin-left: auto;
   margin-right: -200px;
